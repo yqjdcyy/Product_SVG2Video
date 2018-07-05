@@ -1,39 +1,4 @@
 
-# Command
-- `ffmpeg`
-- `ffprobe -i <resource>`
-- `ffplay <resource>`
-
-# MP3.CUt
-- `ffmpeg -ss 0 -t 3 -i audio/bgm.mp3 -acodec copy -y audio/bgm-min.mp3`
-    ```
-    audio[0:3] cut to mp3.new
-    ```
-
-# Video.Split
-- `ffmpeg -i dest/png_mp3.mp4 dest/png_mp3-mp4/%d.jpg`
-    ```
-    MUST create folder[dest/png_mp3-mp4] first
-    ```
-
-- `ffmpeg -i dest/png_mp3_loop.avi dest/png_mp3_loop-mp4/%d.jpg`
-    ```
-    MUST create folder[dest/png_mp3_loop-mp4] first
-    ```
-
-# Video.Gif
-- `ffmpeg -i video/bike.mp4 -ss 0 -t 2 -vf "fps=15,scale=320:-1" -y dest/bike-vf.gif`
-    ```
-    file[fps=15,scale=320:-1].size= 825K
-    ```
-
-- `ffmpeg -i video/bike.mp4 -ss 0 -t 2 -r 24 -s 320:260 -y dest/bike-rs.gif`
-    ```
-    file[-s 320:260].size= 2,252K
-    file[-r 24 -s 320:260].size= 1,824K
-    ```
-
-
 # IMG+ Audio= Video
 - `ffmpeg -i img/bg.png -i audio/bgm-min.mp3 -y dest/png_mp3.mp4`
     ```
