@@ -66,3 +66,6 @@
 - [Combine one image + one audio file to make one video using FFmpeg](https://superuser.com/questions/1041816/combine-one-image-one-audio-file-to-make-one-video-using-ffmpeg)
 - [Useful ‘FFmpeg’ Commands for Video, Audio and Image ](https://www.tecmint.com/ffmpeg-commands-for-video-audio-and-image-conversion-in-linux/)
 - [How do I convert a video to GIF using ffmpeg, with reasonable quality?](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
+
+### 补充
+- [yqjdcyy/Product_SVG2Video](https://github.com/yqjdcyy/Product_SVG2Video)
